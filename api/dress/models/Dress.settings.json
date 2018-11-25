@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "dress",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "price": {
+      "default": "",
+      "type": "integer"
+    },
+    "desc": {
+      "default": "",
+      "type": "text"
+    },
+    "category": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "mini dress",
+        "midi dress",
+        "long dress"
+      ]
+    },
+    "image": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

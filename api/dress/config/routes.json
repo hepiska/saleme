@@ -1,0 +1,54 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dresses",
+      "handler": "Dress.find",
+      "config": {
+        "policies": [
+          "public"
+        ]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dresses/count",
+      "handler": "Dress.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dresses/:_id",
+      "handler": "Dress.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dresses",
+      "handler": "Dress.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dresses/:_id",
+      "handler": "Dress.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dresses/:_id",
+      "handler": "Dress.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
