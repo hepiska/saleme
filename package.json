@@ -19,9 +19,16 @@
     "eslint-plugin-react": "^6.8.0"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "immutable": "^4.0.0-rc.12",
+    "jsonwebtoken": "^8.4.0",
+    "koa2-ratelimit": "^0.7.0",
     "lodash": "4.x.x",
+    "purest": "^3.1.0",
+    "request": "^2.88.0",
     "strapi": "3.0.0-alpha.14.4.0",
-    "strapi-hook-mongoose": "3.0.0-alpha.14.4.0"
+    "strapi-hook-mongoose": "3.0.0-alpha.14.4.0",
+    "stream-to-array": "^2.3.0"
   },
   "author": {
     "name": "franatagola",
